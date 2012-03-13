@@ -1,0 +1,8 @@
+D:\Personal\UHScrapper\UhScrapper\UhScrapper.Web\bin\UhScrapper.Web.dll
+D:\Personal\UHScrapper\UhScrapper\UhScrapper.Web\bin\UhScrapper.Web.pdb
+D:\Personal\UHScrapper\UhScrapper\UhScrapper.Web\bin\HtmlAgilityPack.dll
+D:\Personal\UHScrapper\UhScrapper\UhScrapper.Web\bin\HtmlAgilityPack.pdb
+D:\Personal\UHScrapper\UhScrapper\UhScrapper.Web\bin\HtmlAgilityPack.xml
+D:\Personal\UHScrapper\UhScrapper\UhScrapper.Web\obj\Debug\UhScrapper.Web.csprojResolveAssemblyReference.cache
+D:\Personal\UHScrapper\UhScrapper\UhScrapper.Web\obj\Debug\UhScrapper.Web.dll
+D:\Personal\UHScrapper\UhScrapper\UhScrapper.Web\obj\Debug\UhScrapper.Web.pdb
