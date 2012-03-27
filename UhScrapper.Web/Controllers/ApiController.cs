@@ -140,6 +140,8 @@ namespace UhScrapper.Web.Controllers
                         {
                             ScheduleId = Convert.ToInt32(schId),
                             HomeTeamId = Convert.ToInt32(cells[0].SelectNodes("a")[0].GetAttributeValue("href", "").Replace("schedule.aspx?RegionID=" + regionId + "&amp;SeasonDivisionID=" + leagueId + "&amp;ClubTeamID=", "")),
+                            HomeTeamName = cells[0].SelectNodes("a")[0].InnerHtml,
+                            AwayTeamName = cells[1].SelectNodes("a")[0].InnerHtml,
                             AwayTeamId = Convert.ToInt32(cells[1].SelectNodes("a")[0].GetAttributeValue("href", "").Replace("schedule.aspx?RegionID=" + regionId + "&amp;SeasonDivisionID=" + leagueId + "&amp;ClubTeamID=", "")),
                             Location = cells[2].InnerHtml,
                             GameTime = DateTime.Parse(cells[4].InnerHtml + " " + cells[3].InnerHtml),
